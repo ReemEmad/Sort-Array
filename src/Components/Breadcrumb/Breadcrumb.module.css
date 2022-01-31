@@ -1,0 +1,30 @@
+.breadcrumb {
+  list-style: none;
+  /* margin-bottom: 30px; */
+}
+.breadcrumb li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+.breadcrumb li,
+.breadcrumb li a {
+  color: #8a98ac;
+}
+.breadcrumb li:last-child:after {
+  width: 0;
+}
+.breadcrumb li:after {
+  content: " ";
+  width: 4px;
+  height: 4px;
+  border-radius: 3px;
+  background: var(--pink);
+  position: absolute;
+  background: #8a98ac;
+  right: -11px;
+  top: 10px;
+}
+.breadcrumb li:last-child {
+  color: var(--darkcolor);
+}
