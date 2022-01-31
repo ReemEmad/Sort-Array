@@ -1,0 +1,49 @@
+.cardTitle {
+  position: relative;
+  border-radius: calc(5px - 1px) calc(5px - 1px) 0 0;
+  padding: 20px 20px;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+.cardTitle:before {
+  content: "";
+  background-color: var(--pink);
+  width: 7px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  top: 16px;
+  border-radius: 0 50px 50px 0;
+}
+.cardTitle i,
+.cardTitleAr i {
+  font-size: 20px;
+  cursor: pointer;
+}
+.cardTitleAr {
+  position: relative;
+  border-radius: calc(5px - 1px) calc(5px - 1px) 0 0;
+  padding: 15px 20px;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+}
+.cardTitleAr:before {
+  content: "";
+  background-color: var(--pink);
+  width: 7px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  top: 16px;
+  border-radius: 50px 00px 00px 50px;
+}
+.cardTitle h5,
+.cardTitleAr h5 {
+  font-size: 17px;
+}

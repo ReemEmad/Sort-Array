@@ -1,0 +1,6 @@
+.questionsArea {
+  counter-reset: post-widget-counter;
+}
+.largerTitle {
+  font-size: 20px;
+}
