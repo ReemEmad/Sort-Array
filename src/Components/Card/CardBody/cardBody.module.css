@@ -1,0 +1,22 @@
+.cardBody {
+  padding: 20px 20px 20px 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 15px;
+  transition: all 0.5s ease-in-out;
+  height: auto;
+}
+.cardBody:after {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px 0;
+  /* background-color: var(--light-purple); */
+  right: 0px;
+  bottom: 0;
+  content: " ";
+}
+.animateSlide {
+  height: 0;
+}
