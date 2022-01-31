@@ -2,20 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,16 +11,63 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.App-header h3 {
+  color: white;
+}
+
+.site-card-border-less-wrapper {
+  width: fit-content;
+  padding: 30px;
+  background: #ececec;
+}
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.select_container {
+  width: 25%;
+  margin: 30px;
+}
+
+.quiz_maker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid black;
+  width: 900px;
+
+  padding: 40px;
+}
+
+.editor-container {
+  background: #ececec;
+  padding: 10px;
+}
+
+.box_actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+  width: 100%;
+}
+.optional {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
