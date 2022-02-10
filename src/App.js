@@ -11,16 +11,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h3>Welcome!</h3>
+        <h3>Future Cars!</h3>
       </header>
-      {/* <Provider> */}
+
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/result/:id" element={<AppResult />} /> */}
         <Route path="/result/:id" element={<SingleQuiz />} />
         <Route path="/selector/:id" element={<AppSelectSession />} />
       </Routes>
-      {/* </Provider> */}
     </div>
   )
 }

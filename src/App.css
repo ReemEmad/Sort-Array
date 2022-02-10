@@ -71,3 +71,22 @@
   justify-content: center;
   gap: 30px;
 }
+
+.container__ {
+  width: fit-content;
+}
+
+.container_home {
+  background-color: azure;
+
+  margin: 50px auto;
+  margin-left: 570px;
+  padding: 20px;
+  box-shadow: 7px 9px 19px -1px rgba(217, 216, 216, 0.75);
+  -webkit-box-shadow: 7px 9px 19px -1px rgba(217, 216, 216, 0.75);
+  -moz-box-shadow: 7px 9px 19px -1px rgba(217, 216, 216, 0.75);
+}
+
+.actions button:first-child {
+  margin-right: 150px;
+}
